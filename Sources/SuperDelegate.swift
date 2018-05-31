@@ -35,7 +35,7 @@ public protocol ApplicationLaunched {
 // MARK: - SuperDelegate
 
 
-open class SuperDelegate: NSObject, UIApplicationDelegate {
+open class SuperDelegate: UIResponder, UIApplicationDelegate {
     
     
     // MARK: Public Properties
